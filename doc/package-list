@@ -1,0 +1,12 @@
+com.scheid.jsondiff
+com.scheid.jsondiff.controller
+com.scheid.jsondiff.entity
+com.scheid.jsondiff.exception
+com.scheid.jsondiff.integration
+com.scheid.jsondiff.repository
+com.scheid.jsondiff.service
+com.scheid.jsondiff.service.compare
+com.scheid.jsondiff.service.compare.component
+com.scheid.jsondiff.service.compare.dto
+com.scheid.jsondiff.service.messages
+com.scheid.jsondiff.service.util

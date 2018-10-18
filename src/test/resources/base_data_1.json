@@ -1,0 +1,41 @@
+
+  {
+    "_id": "5bc733466b9465e3c07fe61e",
+    "index": 0,
+    "guid": "9dc5b4fd-aea8-4a3e-8c0e-d4a98c4586a9",
+    "isActive": true,
+    "balance": "$1,030.99",
+    "picture": "http://placehold.it/32x32",
+    "age": 20,
+    "eyeColor": "green",
+    "name": "Blanche Chase",
+    "gender": "female",
+    "company": "EVENTIX",
+    "email": "blanchechase@eventix.com",
+    "phone": "+1 (803) 470-2066",
+    "address": "375 Gelston Avenue, Marshall, North Dakota, 721",
+    "about": "Exercitation ipsum dolore laborum irure veniam tempor esse ex. Reprehenderit consectetur aliquip labore minim qui non. Est esse ipsum aliqua fugiat nisi laborum culpa non dolor nisi cillum. Nisi ad aliqua quis Lorem. Minim laboris ex et tempor cupidatat proident duis. Exercitation fugiat adipisicing qui proident.\r\n",
+    "registered": "2014-06-22T08:05:52 +03:00",
+    "latitude": -29.599015,
+    "longitude": -23.035146,
+    "tags": [
+      "est",
+      "et"
+    ],
+    "friends": [
+      {
+        "ide": 0,
+        "name": "Kinney Nicholson"
+      },
+      {
+        "id": 1,
+        "name": "Jerry Lindsay"
+      },
+      {
+        "id": 2,
+        "name": "Andrews Harrell"
+      }
+    ],
+    "greeting": "Hello, Blanche Chase! You have 6 unread messages.",
+    "favoriteFruit": "apple"
+  }
