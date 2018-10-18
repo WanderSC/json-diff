@@ -16,7 +16,7 @@ The following assumptions were used:
  * The provided value is a valid base64 json binary data.
  * The provided value won't represent a large data exceeding H2 server limits.
  * The provided identifier will be a valid path variable not exceeding a 255 character limit. 
- * Content difference insight will show only display the name of the root JSON nodes with a identified difference.
+ * Content difference insight will only display the name of the root JSON nodes with a identified difference.
 
 
 ### Technology
@@ -25,7 +25,7 @@ The following technologies were used:
 
 Main Technologies:
 
-* Coded in Java.
+* Java.
 * Maven dependency management.  
 
 Framework/Endpoints:
@@ -76,36 +76,27 @@ with java:
 ### Usage Guide
 
 * POST /v1/diff/{id}/left: Add or replace the left element to be compared under the provided identifier. 
- 	- Params: 
- 		{id}: Comparison identifier
- 		Request Body: JSON base64 encoded binary data.
- 		
+ 	- Params: {id}: Comparison identifier; Request Body: JSON base64 encoded binary data.
+ 	
 * POST /v1/diff/{id}/right: Add or replace the right element to be compared under the provided identifier. 
- 	- Params: 
- 		{id}: Comparison identifier
- 		Request Body: JSON base64 encoded binary data.
+ 	- Params: {id}: Comparison identifier; Request Body: JSON base64 encoded binary data.
  		
 * POST /v1/diff/{id}/add: Add a new element to be compared at unfixed position. 
- 	- Params: 
- 		{id}: Comparison identifier
- 		Request Body: JSON base64 encoded binary data.
+ 	- Params: {id}: Comparison identifier; Request Body: JSON base64 encoded binary data.
  		
 * GET /v1/diff/{id}: Diff the existing elements under the provided identifier. 
- 	- Params: 
- 		{id}: Comparison identifier
+ 	- Params: {id}: Comparison identifier.
  		
 * GET /v1/diff/{id}/view: List the existing elements under the provided identifier. 
- 	- Params: 
- 		{id}: Comparison identifier
+ 	- Params: {id}: Comparison identifier.
  		
 * DELETE /v1/diff/{id}: Delete a comparison and its existing elements under the provided identifier. 
- 	- Params: 
- 		{id}: Comparison identifier
+ 	- Params: {id}: Comparison identifier.
  		
 ### Future
 
- * Authentication and comparisons separated per user
- * Base64 conformance validation
+ * Authentication and comparisons separated per user.
+ * Base64 conformance validation.
  * JSON validation and error insight on invalid JSONs.
  * Change database persistence to support big data.
  * New profiles and Compare Components to compare different types of data. 
